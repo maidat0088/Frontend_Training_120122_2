@@ -1,0 +1,106 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 410px;
+  width: 370px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 2px solid #eaeaea;
+}
+
+.box__header {
+  height: 45px;
+  padding: 20px 16px 7px;
+  font-weight: 900;
+}
+
+.box__content {
+  padding: 0 16px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.box__content__summary__title {
+  height: 25px;
+  color: #8e908f;
+}
+
+.box__content__summary__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding: 0 3px;
+}
+
+.box__content__summary__info__item {
+  text-align: center;
+}
+
+.box__content__summary__info__item div:nth-child(1) {
+  background-color: #bf4230;
+  color: white;
+  display: inline-block;
+  line-height: 25px;
+  border-radius: 25px;
+  width: 60px;
+  height: 25px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.box__content__summary__info__item div:nth-child(2) {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.box__content__details__item {
+  border-left: 4px solid #cc442a;
+  margin-bottom: 12px;
+  padding: 0 7px;
+}
+
+.box__content__details__item span:nth-child(1) {
+  color: #0a324c;
+  font-weight: 900;
+}
+
+.box__content__details__item span:nth-child(2) {
+  color: #414141;
+}
+
+.box__footer {
+  height: 58px;
+  padding: 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #eaeaea;
+}
+
+.box__footer a {
+  text-decoration: none;
+  color: #607a87;
+}
+/*# sourceMappingURL=index.css.map */

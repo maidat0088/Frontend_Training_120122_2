@@ -26,6 +26,7 @@ $box-padding: 16px;
         &__summary__title {
             height: 25px;
             color: #8e908f;
+            font-size: 13px;
         }
 
         &__summary__info {
@@ -59,17 +60,19 @@ $box-padding: 16px;
         }
 
         &__details__item {
-            border-left: 4px solid #cc442a;
+            border-left: 3px solid #cc442a;
             margin-bottom: 12px;
             padding: 0 7px;
 
             span:nth-child(1) {
                 color: #0a324c;
+                font-size: 13px;
                 font-weight: 900;
             }
 
             span:nth-child(2) {
                 color: #414141;
+                font-size: 12px;
             }
         }
     }
